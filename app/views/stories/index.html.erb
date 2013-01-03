@@ -1,0 +1,27 @@
+<div class="well well-large">
+  <div class="row">
+    <h1 class="span8">Story Ideas</h1>
+    <a><%= link_to "Submit a News Story Idea", new_story_path, class: "btn btn-info span2" %></a>
+  </div>
+</div>
+<div>
+  <h5>Category</h5>
+</div>
+<% @stories.each do |story| %>
+<div class="well well-small">
+<div class="status">
+  <div class="row">
+    <div class="span2">
+      <p><%= story.category.name %></P>
+      </div>
+    <div class="span7">
+      <strong><%= story.title %></strong>
+      <p><%= story.description %></p>
+      <div class="meta">
+        <%= link_to time_ago_in_words(story.created_at) + " ago", story %>
+    </div>
+    </div>
+  </div>
+ </div> 
+</div>
+<% end %>
