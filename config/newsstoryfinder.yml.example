@@ -1,0 +1,13 @@
+email:
+  from: nsf@example.com
+
+omniauth:
+  facebook:
+    enabled: false
+    key: somekey
+    secret: somesecret
+
+  twitter:
+    enable: false
+    key: somekey
+    secret: somesecret
