@@ -6,6 +6,7 @@ gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'jquery-rails'
 gem 'thin'
+gem 'settingslogic'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
