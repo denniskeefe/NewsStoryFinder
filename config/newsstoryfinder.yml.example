@@ -2,12 +2,7 @@ email:
   from: nsf@example.com
 
 omniauth:
-  facebook:
-    enabled: false
-    key: somekey
-    secret: somesecret
-
-  twitter:
-    enable: false
-    key: somekey
-    secret: somesecret
+  enabled: false
+  providers:
+    # - { name: 'twitter', app_key: '', app_secret: '' }
+    # - { name: 'facebook', app_key: '', app_secret: '' }
