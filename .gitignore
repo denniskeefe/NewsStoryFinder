@@ -4,3 +4,4 @@
 /tmp
 /bin
 .DS_Store
+config/newsstoryfinder.yml
